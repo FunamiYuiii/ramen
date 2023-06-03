@@ -1,11 +1,15 @@
 // pages/_app.js
-import { ChakraProvider } from '@chakra-ui/react'
+import { Box, ChakraProvider, VStack } from '@chakra-ui/react'
 import { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-      <Component {...pageProps} />
+      <Box w='full' h='100vh'>
+        <VStack>
+          <Component {...pageProps} /> 
+        </VStack>        
+      </Box>      
     </ChakraProvider>
   )
 }
