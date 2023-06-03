@@ -1,4 +1,5 @@
 import { Box, Image, Text, VStack } from "@chakra-ui/react"
+const dir = process.env.NODE_ENV === 'production' ? '/ramen' : ''
 
 type Props = {
     id: string
@@ -16,7 +17,7 @@ const Shop = (
                 <Text w={{ base: '325px', md: '500px'}} fontSize={{ base: '17px', md: '25px'}}>
                     {props.name}
                 </Text>
-                <Image src={props.path} alt={props.name}
+                <Image src={dir+props.path} alt={props.name}
                     w={{ base: '325px', md: '500px'}} borderRadius='5%' />
                 <Text w={{ base: '325px', md: '500px'}} fontSize={{ base: '14px', md: '16px'}}>
                     {props.des}
