@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet" /> 
         <title>
-          🍜久留米ラーメンブログ
+          🍜久留米ラーメン 一口ブログ
         </title>
       </Head>
       <Box w='full' minH='100vh' fontFamily='Yuji Syuku'>

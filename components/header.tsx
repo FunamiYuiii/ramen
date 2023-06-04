@@ -5,7 +5,7 @@ const Header = () => {
         <Box w={{ base: '325px', md: '500px'}}>
             <Heading>
                 <Text fontSize={{ base: '22px', md: '30px'}} fontFamily='Yuji Syuku'>
-                🍜久留米ラーメンブログ
+                🍜久留米ラーメン 一口ブログ
                 </Text>
             </Heading>
         </Box>

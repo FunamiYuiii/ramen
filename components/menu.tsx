@@ -6,7 +6,7 @@ const Menu = () => {
         <Box w='200px'>
             <VStack spacing='5px' align='start'>
                 <Text fontWeight='bold'>
-                    お店一覧
+                    紹介お店一覧
                 </Text>
                 <UnorderedList spacing='5px'>
                     <ListItem>
@@ -27,6 +27,16 @@ const Menu = () => {
                     <ListItem>
                         <Link href='/#m1' as={NextLink} >
                             満一
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href='/#rfk' as={NextLink}>
+                            来福軒
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href='/#tr' as={NextLink}>
+                            Toiro
                         </Link>
                     </ListItem>
                 </UnorderedList>
